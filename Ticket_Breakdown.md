@@ -16,8 +16,9 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 
-- Ticket-1: New columns `id_by_facility` in Agents table
-  Implementation details:
+1. Ticket-1: New columns `id_by_facility` in Agents table
+Implementation details:
+
 - Add a column in Agents table with name `id_by_facility` default `NULL`
 - Create a function to generate and store custom ids for each agent in Agents table in `id_by_facility` column. Function should take Agent id as input
 
@@ -29,8 +30,9 @@ Acceptance criteria
 Time/effort
 4 hrs
 
-- Ticket-2: Return `id_by_facility` in `getShiftsByFacility`
-  Implementation details:
+2. Ticket-2: Return `id_by_facility` in `getShiftsByFacility`
+Implementation details:
+
 - Return `id_by_facility` for each Agent getting it from Agents table in the return value of `getShiftsByFacility`
 
 Acceptance criteria
@@ -40,8 +42,9 @@ Acceptance criteria
 Time/effort
 1 hrs
 
-- Ticket-3: Use `id_by_facility` in `generateReport`
-  Implementation details:
+3. Ticket-3: Use `id_by_facility` in `generateReport`
+Implementation details:
+
 - Function `generateReport` should use `id_by_facility` instead of Agnet id to generate report for Facility's shifts
 
 Acceptance criteria
